@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  FavoriteView.swift
 //  iVape
 //
 //  Created by Samy Mehdid on 26/8/2023.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct FavoriteView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    FavoriteView()
 }

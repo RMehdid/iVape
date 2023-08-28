@@ -7,18 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		993830D92A9B929C00D5AA74 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993830D82A9B929C00D5AA74 /* Label.swift */; };
+		993830DC2A9B932500D5AA74 /* Fruits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993830DB2A9B932500D5AA74 /* Fruits.swift */; };
+		993830DE2A9B986400D5AA74 /* Gourmand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993830DD2A9B986400D5AA74 /* Gourmand.swift */; };
+		993830E02A9BF0CA00D5AA74 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993830DF2A9BF0CA00D5AA74 /* HomeView.swift */; };
+		993830E22A9BF19300D5AA74 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993830E12A9BF19300D5AA74 /* CartView.swift */; };
+		993830E42A9C7E3E00D5AA74 /* WrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993830E32A9C7E3E00D5AA74 /* WrapperView.swift */; };
+		993830E72A9C7F9000D5AA74 /* TabBar in Frameworks */ = {isa = PBXBuildFile; productRef = 993830E62A9C7F9000D5AA74 /* TabBar */; };
+		993830E92A9C838A00D5AA74 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993830E82A9C838A00D5AA74 /* Tabbar.swift */; };
+		993830ED2A9C843700D5AA74 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993830EC2A9C843700D5AA74 /* NavigationBar.swift */; };
+		993830EF2A9C84FC00D5AA74 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993830EE2A9C84FC00D5AA74 /* MenuButton.swift */; };
+		993830F12A9C86A600D5AA74 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993830F02A9C86A600D5AA74 /* SearchField.swift */; };
+		993830F42A9C883D00D5AA74 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993830F32A9C883D00D5AA74 /* View.swift */; };
+		993830F72A9C90A100D5AA74 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993830F62A9C90A100D5AA74 /* Color.swift */; };
+		993830F92A9C9A5C00D5AA74 /* liquidCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993830F82A9C9A5C00D5AA74 /* liquidCard.swift */; };
+		993830FB2A9C9AB200D5AA74 /* Liquid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993830FA2A9C9AB200D5AA74 /* Liquid.swift */; };
+		993830FF2A9CFAFA00D5AA74 /* LiquidDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993830FE2A9CFAFA00D5AA74 /* LiquidDetailCard.swift */; };
 		996AF5742A9A8F7700E32A79 /* iVapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996AF5732A9A8F7700E32A79 /* iVapeApp.swift */; };
-		996AF5762A9A8F7700E32A79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996AF5752A9A8F7700E32A79 /* ContentView.swift */; };
+		996AF5762A9A8F7700E32A79 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996AF5752A9A8F7700E32A79 /* FavoriteView.swift */; };
 		996AF5782A9A8F7900E32A79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996AF5772A9A8F7900E32A79 /* Assets.xcassets */; };
 		996AF57B2A9A8F7900E32A79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996AF57A2A9A8F7900E32A79 /* Preview Assets.xcassets */; };
+		99B688672A9D12CE0049C45F /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 99B688662A9D12CE0049C45F /* DGCharts */; };
+		99B688692A9D12CE0049C45F /* DGChartsDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 99B688682A9D12CE0049C45F /* DGChartsDynamic */; };
+		99B6886B2A9D17690049C45F /* FlavourLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B6886A2A9D17690049C45F /* FlavourLabel.swift */; };
+		99CC444D2A9D013B00A2074C /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CC444C2A9D013B00A2074C /* PieChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		993830D82A9B929C00D5AA74 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		993830DB2A9B932500D5AA74 /* Fruits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruits.swift; sourceTree = "<group>"; };
+		993830DD2A9B986400D5AA74 /* Gourmand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gourmand.swift; sourceTree = "<group>"; };
+		993830DF2A9BF0CA00D5AA74 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		993830E12A9BF19300D5AA74 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		993830E32A9C7E3E00D5AA74 /* WrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperView.swift; sourceTree = "<group>"; };
+		993830E82A9C838A00D5AA74 /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		993830EC2A9C843700D5AA74 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		993830EE2A9C84FC00D5AA74 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		993830F02A9C86A600D5AA74 /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
+		993830F32A9C883D00D5AA74 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		993830F62A9C90A100D5AA74 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		993830F82A9C9A5C00D5AA74 /* liquidCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liquidCard.swift; sourceTree = "<group>"; };
+		993830FA2A9C9AB200D5AA74 /* Liquid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liquid.swift; sourceTree = "<group>"; };
+		993830FE2A9CFAFA00D5AA74 /* LiquidDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidDetailCard.swift; sourceTree = "<group>"; };
 		996AF5702A9A8F7700E32A79 /* iVape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iVape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		996AF5732A9A8F7700E32A79 /* iVapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iVapeApp.swift; sourceTree = "<group>"; };
-		996AF5752A9A8F7700E32A79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		996AF5752A9A8F7700E32A79 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		996AF5772A9A8F7900E32A79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		996AF57A2A9A8F7900E32A79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99B6886A2A9D17690049C45F /* FlavourLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavourLabel.swift; sourceTree = "<group>"; };
+		99CC444C2A9D013B00A2074C /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +63,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B688672A9D12CE0049C45F /* DGCharts in Frameworks */,
+				99B688692A9D12CE0049C45F /* DGChartsDynamic in Frameworks */,
+				993830E72A9C7F9000D5AA74 /* TabBar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		993830DA2A9B931900D5AA74 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				993830D82A9B929C00D5AA74 /* Label.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		993830EA2A9C839900D5AA74 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				993830F22A9C882300D5AA74 /* ViewModifiers */,
+				993830E82A9C838A00D5AA74 /* Tabbar.swift */,
+				993830EC2A9C843700D5AA74 /* NavigationBar.swift */,
+				993830EE2A9C84FC00D5AA74 /* MenuButton.swift */,
+				993830F82A9C9A5C00D5AA74 /* liquidCard.swift */,
+				993830FE2A9CFAFA00D5AA74 /* LiquidDetailCard.swift */,
+				99CC444C2A9D013B00A2074C /* PieChartView.swift */,
+				99B6886A2A9D17690049C45F /* FlavourLabel.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		993830EB2A9C841100D5AA74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				996AF5752A9A8F7700E32A79 /* FavoriteView.swift */,
+				993830DF2A9BF0CA00D5AA74 /* HomeView.swift */,
+				993830E12A9BF19300D5AA74 /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		993830F22A9C882300D5AA74 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				993830F02A9C86A600D5AA74 /* SearchField.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		993830F52A9C884300D5AA74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				993830F32A9C883D00D5AA74 /* View.swift */,
+				993830F62A9C90A100D5AA74 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		993830FC2A9C9AB700D5AA74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				993830DB2A9B932500D5AA74 /* Fruits.swift */,
+				993830DD2A9B986400D5AA74 /* Gourmand.swift */,
+				993830FA2A9C9AB200D5AA74 /* Liquid.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		996AF5672A9A8F7700E32A79 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +151,13 @@
 		996AF5722A9A8F7700E32A79 /* iVape */ = {
 			isa = PBXGroup;
 			children = (
+				993830FC2A9C9AB700D5AA74 /* Models */,
+				993830F52A9C884300D5AA74 /* Extensions */,
+				993830EA2A9C839900D5AA74 /* Components */,
+				993830DA2A9B931900D5AA74 /* Protocols */,
+				993830E32A9C7E3E00D5AA74 /* WrapperView.swift */,
 				996AF5732A9A8F7700E32A79 /* iVapeApp.swift */,
-				996AF5752A9A8F7700E32A79 /* ContentView.swift */,
+				993830EB2A9C841100D5AA74 /* Views */,
 				996AF5772A9A8F7900E32A79 /* Assets.xcassets */,
 				996AF5792A9A8F7900E32A79 /* Preview Content */,
 			);
@@ -83,6 +188,11 @@
 			dependencies = (
 			);
 			name = iVape;
+			packageProductDependencies = (
+				993830E62A9C7F9000D5AA74 /* TabBar */,
+				99B688662A9D12CE0049C45F /* DGCharts */,
+				99B688682A9D12CE0049C45F /* DGChartsDynamic */,
+			);
 			productName = iVape;
 			productReference = 996AF5702A9A8F7700E32A79 /* iVape.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +221,10 @@
 				Base,
 			);
 			mainGroup = 996AF5672A9A8F7700E32A79;
+			packageReferences = (
+				993830E52A9C7F9000D5AA74 /* XCRemoteSwiftPackageReference "TabBar" */,
+				99B688652A9D12CE0049C45F /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = 996AF5712A9A8F7700E32A79 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +251,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				996AF5762A9A8F7700E32A79 /* ContentView.swift in Sources */,
+				993830F42A9C883D00D5AA74 /* View.swift in Sources */,
+				993830EF2A9C84FC00D5AA74 /* MenuButton.swift in Sources */,
+				993830E42A9C7E3E00D5AA74 /* WrapperView.swift in Sources */,
+				993830F92A9C9A5C00D5AA74 /* liquidCard.swift in Sources */,
+				993830DE2A9B986400D5AA74 /* Gourmand.swift in Sources */,
+				993830E22A9BF19300D5AA74 /* CartView.swift in Sources */,
+				993830E92A9C838A00D5AA74 /* Tabbar.swift in Sources */,
+				993830DC2A9B932500D5AA74 /* Fruits.swift in Sources */,
+				993830F12A9C86A600D5AA74 /* SearchField.swift in Sources */,
+				993830FF2A9CFAFA00D5AA74 /* LiquidDetailCard.swift in Sources */,
+				99CC444D2A9D013B00A2074C /* PieChartView.swift in Sources */,
+				993830ED2A9C843700D5AA74 /* NavigationBar.swift in Sources */,
+				993830F72A9C90A100D5AA74 /* Color.swift in Sources */,
+				996AF5762A9A8F7700E32A79 /* FavoriteView.swift in Sources */,
+				993830E02A9BF0CA00D5AA74 /* HomeView.swift in Sources */,
 				996AF5742A9A8F7700E32A79 /* iVapeApp.swift in Sources */,
+				993830D92A9B929C00D5AA74 /* Label.swift in Sources */,
+				99B6886B2A9D17690049C45F /* FlavourLabel.swift in Sources */,
+				993830FB2A9C9AB200D5AA74 /* Liquid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +475,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		993830E52A9C7F9000D5AA74 /* XCRemoteSwiftPackageReference "TabBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onl1ner/TabBar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+		99B688652A9D12CE0049C45F /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		993830E62A9C7F9000D5AA74 /* TabBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 993830E52A9C7F9000D5AA74 /* XCRemoteSwiftPackageReference "TabBar" */;
+			productName = TabBar;
+		};
+		99B688662A9D12CE0049C45F /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99B688652A9D12CE0049C45F /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		99B688682A9D12CE0049C45F /* DGChartsDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99B688652A9D12CE0049C45F /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGChartsDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 996AF5682A9A8F7700E32A79 /* Project object */;
 }

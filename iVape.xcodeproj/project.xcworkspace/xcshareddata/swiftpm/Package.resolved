@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "charts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/danielgindi/Charts.git",
+      "state" : {
+        "revision" : "0a229f8c914b0ec93798cee058cf75b339297513",
+        "version" : "5.0.0"
+      }
+    },
+    {
+      "identity" : "tabbar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onl1ner/TabBar.git",
+      "state" : {
+        "revision" : "995e6bc32829d0a0f5300d6f49b654412068dbbe",
+        "version" : "1.3.0"
+      }
+    }
+  ],
+  "version" : 2
+}
