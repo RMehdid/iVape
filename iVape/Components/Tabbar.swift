@@ -45,8 +45,6 @@ struct CustomTabBarStyle: TabBarStyle {
 
     func tabBar(with geometry: GeometryProxy, itemsContainer: @escaping () -> AnyView) -> some View {
             itemsContainer()
-            .background(Color("backgroundTabbar"))
-            .cornerRadius(18)
     }
 }
 

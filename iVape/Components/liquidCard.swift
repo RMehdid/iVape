@@ -14,10 +14,16 @@ struct liquidCard: View {
     var body: some View {
         Button(action: action) {
             ZStack(alignment: .topLeading){
-                Image(liquid.image)
-                    .resizable()
-                    .frame(width: 125, height: 225)
-                    .clipShape(RoundedRectangle(cornerRadius: 12))
+                ZStack(alignment: .bottom){
+                    Image("background")
+                        .resizable()
+                        .clipShape(RoundedRectangle(cornerRadius: 12))
+                    Image("sampleLiquid")
+                        .resizable()
+                        .scaledToFit()
+                        .padding(.bottom, -10)
+                }
+                .frame(width: 125, height: 225)
                 HStack{
                     Image("ic_star")
                         .resizable()

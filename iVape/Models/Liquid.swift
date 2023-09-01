@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import DGCharts
 
 struct Liquid: Identifiable {
     var id: UUID { UUID() }
@@ -23,14 +22,6 @@ struct Liquid: Identifiable {
     
     var type: any Labell.Type {
         return flavours.contains(where: { $0.self is Gourmands }) ? Gourmands.self : Fruits.self
-    }
-    
-    var dataEnteries: [RadarChartDataEntry] {
-        return [
-            RadarChartDataEntry(value: self.sweet),
-            RadarChartDataEntry(value: self.nicotine),
-            RadarChartDataEntry(value: self.freshness)
-        ]
     }
     
     static let liquids: [Liquid] = [

@@ -8,61 +8,69 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @State private var showDetailCard: Liquid? = Liquid.liquids.first
+    
     var body: some View {
         VStack{
-            NavigationBar()
-            VStack(alignment: .leading, spacing: 36){
-                VStack(alignment: .leading, spacing: 4){
-                    Text("Top rated - Fruits")
-                        .foregroundStyle(.white)
-                        .padding(.horizontal)
-                    ScrollView(.horizontal, showsIndicators: false){
-                        HStack{
-                            ForEach(Liquid.liquids) { liquid in
-                                if liquid.type is Fruits.Type {
-                                    liquidCard(liquid: liquid) {
-                                        //
+            ZStack(alignment: .top){
+                if let showDetailCard = showDetailCard {
+                    LiquidDetailCard(liquid: showDetailCard)
+                } else {
+                    VStack(alignment: .leading, spacing: 36){
+                        VStack(alignment: .leading, spacing: 4){
+                            Text("Top rated - Fruits")
+                                .foregroundStyle(.white)
+                                .padding(.horizontal)
+                            ScrollView(.horizontal, showsIndicators: false){
+                                HStack{
+                                    ForEach(Liquid.liquids) { liquid in
+                                        if liquid.type is Fruits.Type {
+                                            liquidCard(liquid: liquid) {
+                                                withAnimation(.spring(.smooth)) {
+                                                    showDetailCard = liquid
+                                                }
+                                            }
+                                        }
                                     }
                                 }
+                                .padding()
                             }
                         }
-                        .padding()
-                    }
-                }
-                VStack(alignment: .leading, spacing: 4){
-                    Text("Top rated - Gouramnds")
-                        .foregroundStyle(.white)
-                        .padding(.horizontal)
-                    ScrollView(.horizontal, showsIndicators: false){
-                        HStack{
-                            ForEach(Liquid.liquids) { liquid in
-                                if liquid.type is Gourmands.Type {
-                                    liquidCard(liquid: liquid) {
-                                        //
+                        VStack(alignment: .leading, spacing: 4){
+                            Text("Top rated - Gouramnds")
+                                .foregroundStyle(.white)
+                                .padding(.horizontal)
+                            ScrollView(.horizontal, showsIndicators: false){
+                                HStack{
+                                    ForEach(Liquid.liquids) { liquid in
+                                        if liquid.type is Gourmands.Type {
+                                            liquidCard(liquid: liquid) {
+                                                withAnimation(.spring(.smooth)) {
+                                                    showDetailCard = liquid
+                                                }
+                                            }
+                                        }
                                     }
                                 }
+                                .padding()
                             }
                         }
-                        .padding()
                     }
+                    .padding(.vertical)
                 }
             }
-            
+            .frame(width: UIScreen.main.bounds.width)
+            .background(
+                LinearGradient(colors: [.darkPurple, .favoritePurple], startPoint: .top, endPoint: .bottom)
+            )
+            .clipShape(UnevenRoundedRectangle(cornerRadii: RectangleCornerRadii(bottomLeading: 16, bottomTrailing: 16)))
             Spacer()
         }
-        .background(
-            LinearGradient(
-                stops: [
-                    Gradient.Stop(color: Color(red: 0.16, green: 0.1, blue: 0.25), location: 0.00),
-                    Gradient.Stop(color: Color(red: 0.27, green: 0.1, blue: 0.32), location: 1.00),
-                ],
-                startPoint: UnitPoint(x: 0.5, y: 0),
-                endPoint: UnitPoint(x: 0.5, y: 1)
-            )
-        )
     }
 }
 
 #Preview {
-    HomeView()
+    WrapperView()
+        .background(Color.black)
 }

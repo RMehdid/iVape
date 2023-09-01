@@ -26,7 +26,12 @@ struct SearchFieldModifier: ViewModifier {
 
 #Preview {
     VStack{
-        NavigationBar()
+        NavigationBar {
+            //
+        } onSearchSubmit: { searchText in
+            //
+        }
+
         Spacer()
     }
     .background(Color.black)

@@ -10,45 +10,51 @@ import SwiftUI
 struct LiquidDetailCard: View {
     let liquid: Liquid
     var body: some View {
-        ZStack{
-            Image("ragnarok")
-                .resizable()
-                .blur(radius: 2.5)
-            VStack{
-                Spacer()
-                VStack{
-                    Text(liquid.make.uppercased())
-                        .fontWeight(.bold)
-                        .font(.system(size: 26))
-                    Text(liquid.name.lowercased())
-                        .fontDesign(.rounded)
-                        .font(.system(size: 20))
+        ZStack(alignment: .trailing){
+            ZStack(alignment: .bottom){
+                Image("background")
+                    .resizable()
+                    .blur(radius: 4)
+                Image("sampleLiquid")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(maxWidth: 250)
+                    .padding(.bottom, 40)
+                
+                HStack{
+                    Spacer()
+                    VStack{
+                        Text(liquid.make.uppercased())
+                            .fontWeight(.bold)
+                            .font(.system(size: 26))
+                        Text(liquid.name.lowercased())
+                            .fontDesign(.rounded)
+                            .font(.system(size: 20))
+                    }
+                    Spacer()
                 }
                 .foregroundStyle(.white)
                 .padding()
-                .frame(width: 371, height: 120)
+                .frame(height: 120)
                 .background(
-                    LinearGradient(
-                        stops: [
-                            Gradient.Stop(color: .black.opacity(0), location: 0.00),
-                            Gradient.Stop(color: .black, location: 0.55),
-                        ],
-                        startPoint: UnitPoint(x: 0.5, y: 0),
-                        endPoint: UnitPoint(x: 0.5, y: 1)
+                    LinearGradient(colors: [
+                        .black.opacity(0),
+                        .black
+                    ],
+                        startPoint: .top,
+                        endPoint: .bottom
                     )
                 )
             }
-            HStack{
-                Spacer()
-                VStack{
-                    ForEach(liquid.flavours, id: \.name) { flavour in
-                        FlavourLabel(flavour)
-                    }
+            VStack{
+                ForEach(liquid.flavours, id: \.name) { flavour in
+                    FlavourLabel(flavour)
                 }
             }
             .padding()
         }
         .clipShape(RoundedRectangle(cornerRadius: 50))
+        .scaleEffect(0.8)
     }
 }
 
